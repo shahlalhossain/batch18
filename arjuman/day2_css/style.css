@@ -1,0 +1,66 @@
+body {
+    color: #9c9c9c;
+}
+
+h3 {
+    color: #333;
+}
+
+.video-area {
+    position: relative;
+    padding: 80px 0;
+}
+
+.video-area-bg {
+    position: absolute;
+    background-image: url(assets/img/a.jpg);
+    background-position: center;
+    background-color: aqua;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 44%;
+    box-shadow: 0 0 10px rgb(49, 0, 139);
+}
+
+.video-play-btn {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background: rgb(19, 122, 97);
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    line-height: 90px;
+    border-radius: 50%;
+    padding-left: 5px;
+    margin-top: -50px;
+}
+
+.chack-icon {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 16px;
+    color: rgb(85, 79, 79);
+}
+
+.chack-icon li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.chack-icon li::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f09a";
+    color: rgb(19, 122, 97);
+    left: 0px;
+    top: 2px;
+    position: absolute;
+}
